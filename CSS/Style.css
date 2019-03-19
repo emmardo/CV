@@ -145,3 +145,8 @@ h3 {
   flex-flow: row nowrap;
   justify-content: flex-start;
 }
+
+#about {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
