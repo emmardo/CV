@@ -1,0 +1,147 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  align-content: center;
+}
+
+.cvbody {
+  min-width: 794px;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: black;
+  border-right-color: black;
+  border-left-width: thin;
+  border-right-width: thin;
+}
+
+.maincolumn {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: white;
+  flex: 3 3 75%;
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.othercolumn {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #FECA07;
+  flex: 1 1 25%;
+  max-width: 25%;
+  min-width: 199px;
+}
+
+#name {
+  text-transform: uppercase;
+}
+
+#firstname {
+  color: #FECA07;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+h3.Container2 {
+  box-sizing: border-box;
+  text-align: center;
+  color: #FECA07;
+  background-color: #404040;
+}
+
+p.Container2 {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.2em;
+}
+
+h4.Container2 {
+  margin-left: 1em;
+  margin-bottom: 0.1em;
+}
+
+h1 {
+  margin-bottom: 0.2em;
+}
+
+p.Container1 {
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+hr {
+  height:0;
+  border:0;
+  border-top:1px solid #FECA07;
+}
+
+h3 {
+  text-transform: uppercase;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.EdContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.Education {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.Eddates {
+  box-sizing: border-box;
+  min-width: 220px;
+  max-width: 220px;
+}
+
+.ExContainer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.Experience {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.Exdates {
+  box-sizing: border-box;
+  min-width: 220px;
+  max-width: 220px;
+}
+
+.Languages {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.language {
+  box-sizing: border-box;
+  min-width: 220px;
+  max-width: 220px;
+}
+
+.References {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
